@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CuadradoCuboDeUnNumero4838081.MainPage">
+    <ScrollView>
+        <VerticalStackLayout
+            Padding="30,0"
+          Spacing="25">
+        <Label
+        Text="Cadrado y Cubo de un numero entero positivo"
+        VerticalOptions="Center"
+        HorizontalOptions="Center"/>
+            <Image
+              Source="ccnu.png"
+              HeightRequest="100"
+              Aspect="AspectFit"/>
+        <Entry x:Name="entry1" Placeholder="Escriba un numero entero positivo"/>
+        <Entry x:Name="entry2" Placeholder="Cubo"/><Entry x:Name="entry3" Placeholder="Cuadrado"/>
+        <Button Text="Ver cuadrado y cubo" Clicked="Button_Clicked"/>
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
